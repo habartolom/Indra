@@ -8,7 +8,7 @@ namespace Indra.Models
     public class FirstResponse
     {
         public int Dias { get; set; }
-        public int[] Entrada { get; set; }
-        public int[] Salida { get; set; }
+        public string Entrada { get; set; }
+        public string Salida { get; set; }
     }
 }
